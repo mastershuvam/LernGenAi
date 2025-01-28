@@ -284,3 +284,20 @@ Here is a question: How to make a money so quickly?
 **Retrieval-augmented generation (RAG):**  is an artificial intelligence (AI) framework that retrieves data from external sources of knowledge to improve the quality of responses. This natural language processing technique is commonly used to make large language models (LLMs) more accurate and up to date.
 
 **Code Interpreter:** Python programming environment within ChatGPT where you can perform a wide range of tasks by executing Python code.
+
+#langchain
+
+## A simple prompt to extract information from "student_description" in a JSON format.
+,,,
+prompt = f'''
+Please extract the following information from the given text and return it as a JSON object:
+
+name
+college
+grades
+club
+
+This is the body of text to extract the information from:
+{student_description}
+
+'''
