@@ -301,3 +301,7 @@ This is the body of text to extract the information from:
 {student_description}
 
 '''
+
+# Prompt Templates:
+
+
